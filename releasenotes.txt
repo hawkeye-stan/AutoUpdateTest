@@ -1,8 +1,6 @@
 Version 3.2.0.1
 
-- Added per monitor DPI-awareness support. The application should 
-  run and display correctly when using combination of mixed monitor 
-  (with high-DPI and low-DPI) resolutions and scaling.
+- Added per monitor DPI-awareness support. The application should run and display correctly when using combination of mixed monitor (with high-DPI and low-DPI) resolutions and scaling.
 
 - Added system tray icon access. Application can start minimize or 
   minimize to system tray. System tray icon features a context menu 
