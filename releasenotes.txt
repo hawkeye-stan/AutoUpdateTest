@@ -1,6 +1,6 @@
 Version 3.3.3.0
 
-- Fixed issue clicking on "Show/Edit Panel Location Overlay" or enabling auto disabling TrackIR option
-  will cause PFD/MFD panels to be turned off when auto pop out in cold start.
-- Fixed issue where auto panning of cockpit view does not pan to previsouly save camera view during 
-  pop out process.
+- Fixed issue clicking on "Show/Edit Panel Location Overlay" or enabling auto disabling TrackIR 
+  option will cause PFD/MFD panels to be turned off when auto pop out in cold start.
+- Fixed issue where auto panning of cockpit view does not pan to previsouly save camera view 
+  during pop out process.
