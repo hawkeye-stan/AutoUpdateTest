@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <item>
-  <version>3.3.3.0</version>
-  <url>https://github.com/hawkeye-stan/AutoUpdateTest/releases/download/3.3.3/msfs-popout-panel-manager.zip</url>
+  <version>3.3.4.0</version>
+  <url>https://github.com/hawkeye-stan/AutoUpdateTest/releases/download/3.3.4/msfs-popout-panel-manager.zip</url>
   <changelog>https://raw.githubusercontent.com/hawkeye-stan/AutoUpdateTest/main/releasenotes.txt</changelog>
   <mandatory>false</mandatory>
 </item>
