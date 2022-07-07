@@ -1,19 +1,22 @@
-Version 3.3.4.0
+Version 3.3.5.0 
 
-- Fixed issue when using Auto Pop Out Panel feature in conjunction with Auto Disable 
-  Track IR setting. When performing cold start on G1000 / G1000 NXi equipped plane with
-  Power on required checked, PFD and MFD fail to turn on or they will turn off by themselves.
-  This resulted in pop out process to fail.
+This is update is optional. You can safely skip this version if you do not require the following
+application fixes.
 
-- Fixed issue when using Auto Pop Out Panel and the game is in Windows mode, Pop Out Manager
-  fails to automatically click the "Ready to Fly" button.
+- Fixed an issue when using auto pop out in combination with power on during cold start for the
+  following two G1000 based planes (Cessna 172 and Cessna 208B Grand Caravan + improvement mod), 
+  instrumentations are not powering on to allow pop out to happen.
 
-- Made improvement to the detection of when a flight starts and ends. This helps resolve the
-  issue when exiting a flight, Pop Out Manager tries to pop out panels again.
+- Fixed an issue when panels are designated as full screen mode panel, they're not resizing to full 
+  screen after they're popped out.
 
-- Added touch enable panel support experimental feature. Please see github repo README.md on
-  how to use this feature. This feature tries to workaround an outstanding issue of lack of
-  support by MSFS with pop out that has touch component (GTN750, KingAir 350, Built-in panels
-  such as CheckList, ATC, etc).
+- Fixed an issue when using auto pop out panel, "Ready to Fly" button may not get click when interface
+  scale is set to higher than 70. Unfortunately, because of how MSFS coded this particular button,
+  this fix may add few seconds extra to the duration of the auto pop out process since the application
+  needs to search for the button to click.
 
-- Updated documentation and how to videos.
+- Updated verbiage for "Save Auto Panning Camera" button to "Override Auto Panning Camera". This 
+  is to clear the confusion when initially selecting panels for a profile, clicking this button 
+  eems to be required. "Override Auto Panning Camera" is only needed when your camera viewport has 
+  changed for an existing profile and you do not want to recreate a new  profile to set new panel 
+  locations.
