@@ -1,19 +1,19 @@
 Version 3.3.5.0 
 
-This is update is optional. You can safely skip this version if you do not require the following
+This update is optional. You can safely skip this version if you do not require the following
 application fixes.
 
 - Fixed an issue when using auto pop out in combination with power on during cold start for the
   following two G1000 based planes (Cessna 172 and Cessna 208B Grand Caravan + improvement mod), 
-  instrumentations are not powering on to allow pop out to happen.
+  instrumentations are not powering on to allow pop out to occur.
 
-- Fixed an issue when panels are designated as full screen mode panel, they're not resizing to full 
-  screen after they're popped out.
+- Fixed an issue when panels are designated as full screen mode panel, they're not resizing to 
+  full screen after they're popped out.
 
-- Fixed an issue when using auto pop out panel, "Ready to Fly" button may not get click when interface
-  scale is set to higher than 70. Unfortunately, because of how MSFS coded this particular button,
-  this fix may add few seconds extra to the duration of the auto pop out process since the application
-  needs to search for the button to click.
+- Fixed an issue when using auto pop out panel, "Ready to Fly" button may not get click when 
+  interface scale setting is set to higher than 70. Unfortunately, because of how MSFS coded this 
+  particular button, this fix may add few seconds extra to the duration of auto pop out process 
+  since the application needs to search for the button to click.
 
 - Updated verbiage for "Save Auto Panning Camera" button to "Override Auto Panning Camera". This 
   is to clear the confusion when initially selecting panels for a profile, clicking this button 
