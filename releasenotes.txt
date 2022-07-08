@@ -20,3 +20,5 @@ application fixes.
   eems to be required. "Override Auto Panning Camera" is only needed when your camera viewport has 
   changed for an existing profile and you do not want to recreate a new  profile to set new panel 
   locations.
+
+- Made improvement to the behavior of Track IR (enable/disable) when using the application.
