@@ -1,20 +1,29 @@
 Version 3.4.0.0 
 
-This release is a mandatory update to fix some of the urgent issues and to improve the 
-performance when using Auto Pop Out Panel. Since this update has major application architecture
-changes, you're still welcome to skip this update and continue to use older version but older
-version of the application will not be supported going forward.
+This release is optional and it fixes some of the urgent application issues and made improvement 
+to performance when using Auto Pop Out Panel. Since this update has major application 
+architecture changes and performance improvement, you're encouraged to update to this latest 
+version. You're still welcome to skip this update and continue to use older version of the 
+applicaiton but they will not be supported going forward.
 
-*****************************************************************************************
-IMPORTANT
+************************************************************************************************
+                                   IMPORTANT CHANGES
 
-User data files for the application are being moved to new folder location. You can backup 
-the two user data files "appsettingdata.json" and "userprofiledata.json" in "userdata" 
-folder in the installation directory before performing this update.
+1. A major change to application architecture resulted in an update download of 67MB. The
+   application now includes the updated and required .NET framework which you no longer need to
+   install as a separate download.
 
-New additional community plugin installation is required to to use Auto Pop Out Panel feature.
-this plugin, please see information below for installation instruciton. 
-*****************************************************************************************
+2. User data files for the application are being moved to new folder location. You can backup 
+   the two user data files "appsettingdata.json" and "userprofiledata.json" in "userdata" 
+   folder in your installation directory before performing this update. To do that, you can 
+   close this update dialog (do not click update) and exit the application. Backup the two files 
+   and relaunch the application. This update dialog will reappear and you can select update again.
+
+3. New additional community plugin installation is required to to use Auto Pop Out Panel feature.
+   Please see information below for installation instruciton. 
+************************************************************************************************
+
+Change Log:
 
 * Revamped how Auto Pop Out Panel works. The application no longer tries to hunt and click 
   "Ready to Fly" button by using "Ready to Fly Button Skipper" plugin I created. This community
@@ -32,8 +41,8 @@ this plugin, please see information below for installation instruciton.
   installation folder.
 
 * Upgraded the application to use latest .NET 6.0 framework. You'll notice after user data 
-  migration, your installation folder will have only one executable file left.  Please don't 
-  be alarmed. This file is much bigger (67MB) since all .NET dependencies and application files
+  migration, your installation folder will have only one executable file left. Please don't 
+  be alarmed when this file is 67MB since all .NET dependencies and application files
   are now packaged into a single file. You no longer need to manually install .NET framework 
   to run this application.
 
@@ -71,3 +80,9 @@ this plugin, please see information below for installation instruciton.
   also prepares the code architecture for v4.0 new features. Please be patient as I continue
   to implement v4.0. As always, please report issue and comment and I welcome all feedbacks 
   and will do my best to fix or implement requested features.
+
+Known Issues:
+
+* In SU 10 beta (1.27.11.0), when using Touch Enabled and Full Screen Mode simultaneously for 
+  a panel, touch event may not register correctly. So if you want to use touch feature, please 
+  run the panel in regular pop out window mode instead of full screen.
